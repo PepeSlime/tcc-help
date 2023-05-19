@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="home.js"></script>
+
+
 </head>
 
 <body>
-    <header id="header" class="flex-row content-vcenter space-40 content-space-between box">
-        <span class="material-symbols-outlined">
+    <header id="header" class="flex-row content-vcenter space-40  hidden content-space-between box ">
+        <span onclick="mostrarMenu()" class="material-symbols-outlined">
             menu
         </span>
 
@@ -30,7 +33,7 @@
 
     <div class=" conteudo grow ">
 
-        <nav id="menu"class="flex-col box fit-width space-30">
+        <nav id="menu" class="flex-col box fit-width space-30">
             <a href="" class="flex-row gap-10 content-vcenter">
                 <span class="material-symbols-outlined">
                     home
@@ -43,8 +46,8 @@
             <a href="" class="flex-row gap-10 content-vcenter">
                 <span class="material-symbols-outlined">
                     settings
-                    </span>
-                
+                </span>
+
                 </span>
                 <span>
                     Configurações
@@ -54,13 +57,13 @@
             <a href="" class="flex-row gap-10 content-vcenter">
                 <span class="material-symbols-outlined">
                     logout
-                    </span>
+                </span>
                 <span>
                     Logout
                 </span>
             </a>
 
-            
+
         </nav>
         <div class="flex-row content-center space-30">
             <div class="box-round">

@@ -25,3 +25,7 @@ img {
     color: rgb(18, 32, 223);
 
 }
+
+.hidden{
+    display: none;
+}

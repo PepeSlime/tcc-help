@@ -88,3 +88,7 @@ header h1 {
 #header{
     z-index: 1;
 }
+
+.hidden{
+    display: none;
+}

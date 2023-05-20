@@ -1,6 +1,6 @@
 function mostarMenu() {
-    let menu = document.querySelector("#menu");
+    let menuPepe = document.querySelector("#menu");
 
-    menu.classList.toggle("hidden");
+    menuPepe.classList.toggle("hidden");
 }
 
